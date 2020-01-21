@@ -23,7 +23,7 @@ def loadPictures(cardId):
         try:
             urllib.request.urlretrieve(imagePath+cardId+'.jpg',path+'/'+cardId+'.jpg')
         except:
-            print("check your network connection , or retry later")
+            print("check your network connection or retry later")
 
 def checkCards(deck):
     path='deck'
